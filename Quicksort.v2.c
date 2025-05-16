@@ -35,7 +35,7 @@ void printArray(int arr[], int size){
 }
 
 int main(){
-   long int n = 10000;
+   long int n = 1000000;
    int *arr = (int*)malloc(n * sizeof(int));
    srand(0);
    long int i;
